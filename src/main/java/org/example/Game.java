@@ -34,8 +34,17 @@ public class Game implements Runnable{
         double deltaU = 0;
 
         while (true) {
-            long currenTime = System.nanoTime();
+            long currentTime = System.nanoTime();
             now = System.nanoTime();
+
+            deltaU += (currentTime - previousTime) / timePerUpdate;
+            previousTime = currentTime;
+
+            if (deltaU >= 1) {
+                //update();
+                updates++;
+                deltaU--;
+            }
             if(System.nanoTime() - lastFrame >= timePerFrame) {
                 gamePanel.repaint();
                 lastFrame = now;
