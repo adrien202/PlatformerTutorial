@@ -22,12 +22,14 @@ public class Player extends Entity{
     private int playerDir = -1;
     private float playerSpeed = 2.0f;
     private int[][] lvlData;
+    private boolean left, up, right, down, jump;
+    private float airSpeed = 0f;
+    private float gravity = 0.04f * Game.SCALE;
+    private float jumpSpeed = -2.25f * Game.SCALE;
+    private float fallSpeedAfterCollision = 0.5f * Game.SCALE;
+    private boolean inAir = false;
     private boolean isMoving = false;
     private boolean isAttacking = false;
-    private boolean left = false;
-    private boolean up = false;
-    private boolean right = false;
-    private boolean down = false;
     private float xDrawOffset = 21 * Game.SCALE;
     private float yDrawOffset = 4 * Game.SCALE;
     public Player(float x, float y, int width, int height) {

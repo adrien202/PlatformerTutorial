@@ -7,3 +7,5 @@ d
 4src/main/java/org/example/inputs/KeyboardInputs.java,f\e\fe287e2697819e0050c809ea3d16508334d32cd0
 S
 #src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
+Y
+)src/main/java/org/example/GameWindow.java,f\d\fd66a2d0a4c3266748d03bb7ea2e835349d1391b
