@@ -20,3 +20,7 @@ b
 2src/main/java/org/example/levels/LevelManager.java,9\f\9fac44074dce4659b693ecad60ef6ed9509c6201
 ^
 .src/main/java/org/example/utils/Constants.java,4\c\4c7a60f4a3b362772e33a979237dab00859781b9
+^
+.src/main/java/org/example/entities/Entity.java,9\6\962e4bf191704c2eb3f1f5b2b74709ec1dfa5ede
+S
+#src/main/java/org/example/Game.java,f\1\f1d67a7ee35efa3e1601241987bec47697a781ba
